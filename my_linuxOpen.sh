@@ -1,6 +1,8 @@
 #!/bin/bash
 # ============================================
 # 本地端口全面检测脚本
+#一键运行命令
+#curl -sL https://raw.githubusercontent.com/WangryWang/IT-Soc-Dev/main/my_linuxOpen.sh | sudo bash
 # 功能：检测 1-65535 端口开放情况，显示详细信息和进程占用
 # ============================================
 
