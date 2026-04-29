@@ -3,7 +3,7 @@
 # Ubuntu Swap 完全清理与智能扩容脚本
 # 功能：先检查并清理所有现有 Swap，然后创建新的 Swap 文件
 #一键运行命令
-#curl -sL https://raw.githubusercontent.com/WangryWang/IT-Soc-Dev/main/my_linuxOpen.sh | sudo bash
+#sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/WangryWang/IT-Soc-Dev/main/Swapadd.sh)" | sudo tee /tmp/swap_cleanup.sh && sudo bash /tmp/swap_cleanup.sh
 # ============================================
 
 # 颜色定义
