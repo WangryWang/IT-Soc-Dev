@@ -1,0 +1,445 @@
+# ==========================================
+# 🌐 国际/海外常用及特色 DNS
+# 格式: IP Address        Hostname                 # 地区 - 特点
+# ==========================================
+
+# Quad9 (高安全性、拦截恶意软件)
+9.9.9.9           dns.quad9.net            # 瑞士/全球 - 主DNS
+149.112.112.112   dns.quad9.net            # 瑞士/全球 - 备DNS
+
+# Cloudflare (极速、极度注重隐私)
+1.1.1.1           one.one.one.one          # 美国/全球 - 主DNS
+1.0.0.1           one.one.one.one          # 美国/全球 - 备DNS
+
+# Google Public DNS (全球最广泛、高准确率)
+8.8.8.8           dns.google               # 美国/全球 - 主DNS
+8.8.4.4           dns.google               # 美国/全球 - 备DNS
+
+# OpenDNS (老牌、抗劫持)
+208.67.222.222    dns.opendns.com          # 美国/全球 - 主DNS
+208.67.220.220    dns.opendns.com          # 美国/全球 - 备DNS
+
+# AdGuard DNS (DNS层面拦截广告和追踪器)
+94.140.14.14      dns.adguard-dns.com      # 塞浦路斯/全球 - 主DNS
+94.140.15.15      dns.adguard-dns.com      # 塞浦路斯/全球 - 备DNS
+
+# Yandex DNS (东欧/俄罗斯周边速度快)
+77.88.8.8         dns.yandex.ru            # 俄罗斯 - 主DNS
+77.88.8.1         dns.yandex.ru            # 俄罗斯 - 备DNS
+
+
+# ==========================================
+# 🇨🇳 国内常用 DNS (适合国内网络环境，低延迟)
+# ==========================================
+
+# 114 DNS (国内老牌、高兼容性)
+114.114.114.114   dns.114dns.com           # 江苏南京/全国 - 主DNS
+114.114.115.115   dns.114dns.com           # 江苏南京/全国 - 备DNS
+
+# 阿里 DNS (防劫持、基础设施强)
+223.5.5.5         dns.alidns.com           # 浙江杭州/全国 - 主DNS
+223.6.6.6         dns.alidns.com           # 浙江杭州/全国 - 备DNS
+
+# 腾讯 DNSPod (节点分布广、解析极快)
+119.29.29.29      dns.pub                  # 广东深圳/全国 - 主DNS
+182.254.116.116   dns.pub                  # 广东深圳/全国 - 备DNS
+
+# 百度 DNS (云防护、无恶意跳转)
+180.76.76.76      dns.baidu.com            # 北京/全国 - 主DNS
+
+# CNNIC SDNS (官方背景、安全可靠)
+1.2.4.8           dns.sdns.cn              # 北京/全国 - 主DNS
+210.2.4.8         dns.sdns.cn              # 北京/全国 - 备DNS
+# ==========================================
+# 🌌 全球极客与专业级 DNS (更冷门但好用)
+# 格式: IP Address        Hostname                 # 地区 - 特点
+# ==========================================
+
+# Level3 DNS (极其经典，甚至比 8.8.8.8 还早的“上古”公共 DNS)
+4.2.2.1           vnsc-bak.sys.gtei.net    # 美国 - 极速、稳定（现属Lumen）
+4.2.2.2           vnsc-pri.sys.gtei.net    # 美国 - 资深网管的首选
+
+# DNS.WATCH (极致简约，德国品质)
+84.200.69.80      dns.watch                # 德国 - 绝不记录日志，无过滤
+84.200.70.40      dns.watch                # 德国 - 纯粹的解析服务
+
+# UncensoredDNS (由丹麦个人运营，硬核隐私保护)
+91.239.100.100    unicast.censurfridns.dk  # 丹麦 - 无审查、无记录
+89.233.43.71      anycast.censurfridns.dk  # 丹麦 - 极客圈口碑极佳
+
+# CleanBrowsing (侧重安全过滤，适合家庭/儿童环境)
+185.228.168.9     security-filter.dns      # 全球 - 屏蔽恶意软件和钓鱼
+185.228.169.11    adult-filter.dns         # 全球 - 强力屏蔽成人内容
+
+# Hurricane Electric (老牌网络服务商，IPv6 的先行者)
+74.82.42.42       ordns.he.net             # 美国 - 稳定性极佳，适合开发者
+
+# Freenom World (匿名、防止ISP劫持)
+80.80.80.80       freenom.world            # 荷兰 - 简单好记，完全匿名
+
+
+# ==========================================
+# 🇨🇳 国内垂直/企业级 DNS (作为补充)
+# ==========================================
+
+# 360 安全 DNS (主打安全防护)
+101.226.4.6       dns.360.cn               # 上海电信/联通/移动 - 主DNS
+218.30.118.6      dns.360.cn               # 北京电信/联通/移动 - 备DNS
+
+# OneDNS (国内专注于恶意软件/广告过滤的 DNS)
+117.50.11.11      onedns.net               # 北京/全国 - 极速拦截版
+117.50.22.22      onedns.net               # 北京/全国 - 安全防护版
+
+# 字节跳动 (火山引擎 Public DNS - 相对较新的选择)
+180.184.1.1       public.volcengine.com    # 北京/全国 - 互联网巨头节点
+180.184.2.2       public.volcengine.com    # 北京/全国 - 低延迟解析
+
+# 教育网/学术界 (CERNET - 适合高校校园网)
+202.112.20.131    dns.edu.cn               # 北京/赛尔网络 - 高校访问快
+202.141.162.123   dns.ustc.edu.cn          # 合肥/中科大 - 稳定学术资源
+
+# 华为云 DNS (华为基础设施)
+122.112.208.1     dns.huaweicloud.com      # 广东深圳/全国 - 企业级服务
+139.9.23.90       dns.huaweicloud.com      # 广东广州/全国 - 备用
+# ==========================================
+# 🔐 深度隐私与定制化 DNS (2026年主流极客选型)
+# 格式: IP Address        Hostname                 # 地区 - 特点
+# ==========================================
+
+# NextDNS (目前最火的定制化 DNS，支持极其强大的过滤规则)
+45.90.28.167      dns.nextdns.io           # 全球/近距离节点 - 主DNS
+45.90.30.167      dns.nextdns.io           # 全球/近距离节点 - 备DNS
+
+# Mullvad DNS (来自顶级 VPN 服务商，主推零日志隐私)
+194.242.2.2       dns.mullvad.net          # 瑞典/全球 - 基础隐私版
+194.242.2.3       adblock.dns.mullvad.net  # 瑞典/全球 - 广告过滤版
+
+# Control D (由 Windscribe 团队开发，解析速度极快)
+76.76.2.0         p0.controld.com          # 全球节点 - 无过滤版
+76.76.10.0        p1.controld.com          # 全球节点 - 广告拦截版
+
+# Comodo Secure DNS (网络安全巨头提供)
+8.26.56.26        dns.comodo.com           # 美国 - 安全防御版
+8.20.247.20       dns.comodo.com           # 美国 - 备用节点
+
+# Comss.one DNS (俄罗斯极客社区维护，常用于绕过某些特定限制)
+95.161.212.155    dns.comss.one            # 俄罗斯/欧洲 - 特点是干净且无视某些ISP干扰
+
+
+# ==========================================
+# 🏗️ 中国三大运营商公共 DNS (虽然通常是自动获取，但这些是其公共 IP)
+# ==========================================
+
+# 中国电信公共 DNS (全国通用版)
+101.198.198.198   ctc.public.dns           # 中国电信 - 官方公用
+101.199.199.199   ctc.public.dns           # 中国电信 - 备用
+
+# 中国联通公共 DNS
+123.125.81.6      cnc.public.dns           # 中国联通 - 北京节点
+210.22.84.3       cnc.public.dns           # 中国联通 - 上海节点
+
+# 中国移动公共 DNS
+211.136.20.203    cmcc.public.dns          # 中国移动 - 广东节点
+211.136.17.107    cmcc.public.dns          # 中国移动 - 官方公用
+
+
+# ==========================================
+# 🧬 未来派：常用 DNS 的 IPv6 地址 (如果您开启了 IPv6，这些很有用)
+# 格式: IPv6 Address              Hostname        # 备注
+# ==========================================
+
+# Google IPv6
+2001:4860:4860::8888              dns.google      # Google 主
+2001:4860:4860::8844              dns.google      # Google 备
+
+# Cloudflare IPv6
+2606:4700:4700::1111              cloudflare-dns  # Cloudflare 主
+2606:4700:4700::1001              cloudflare-dns  # Cloudflare 备
+
+# Quad9 IPv6 (您关注的 9.9.9.9 对应的 IPv6)
+2620:fe::fe                       dns.quad9.net   # Quad9 主
+2620:fe::9                        dns.quad9.net   # Quad9 安全增强版
+
+# 阿里 DNS IPv6
+2400:3200::1                      dns.alidns.com  # 阿里 主
+2400:3200:baba::1                 dns.alidns.com  # 阿里 备
+# ==========================================
+# 🏢 全球企业级与老牌电信基础设施
+# 格式: IP Address        Hostname                 # 地区 - 特点
+# ==========================================
+
+# Verisign Public DNS (互联网基石公司，顶级域 .com 的管理者)
+64.6.64.6         verisign-public-dns      # 美国 - 极其稳定，不利用数据牟利
+64.6.65.6         verisign-public-dns      # 美国 - 强调隐私与安全
+
+# Neustar UltraDNS (高性能企业级服务)
+156.154.70.1      pdns1.ultradns.com       # 全球 - 威胁保护版
+156.154.71.1      pdns2.ultradns.com       # 全球 - 快速解析，企业级 SLA
+
+# Oracle Dyn DNS (甲骨文旗下，极高的可用性)
+216.146.35.35     dns1.dyn.com             # 美国/全球 - 适合开发者测试
+216.146.36.36     dns2.dyn.com             # 美国/全球 - 备用节点
+
+# Gcore DNS (全球边缘计算巨头，节点极多)
+95.161.161.161    ns1.gcore.com            # 卢森堡/全球 - 极速边缘解析
+95.161.161.162    ns2.gcore.com            # 卢森堡/全球 - 备用
+
+
+# ==========================================
+# 🌏 东亚周边节点 (针对外服游戏优化或特定路由测试)
+# ==========================================
+
+# KT DNS (韩国电信 - 玩韩服游戏、访问韩国资源的神器)
+168.126.63.1      ktdns.korea              # 韩国首尔 - 响应极快且解析准确
+168.126.63.2      ktdns.korea              # 韩国首尔 - 备用节点
+
+# TWNIC Quad101 (台湾互联网信息中心)
+101.101.101.101   twnic.tw                 # 台湾台北 - 隐私保护，东南亚加速
+101.102.103.104   twnic.tw                 # 台湾台北 - 备用节点
+
+# IIJ DNS (日本老牌 ISP)
+210.130.1.1       dns.iij.ad.jp            # 日本东京 - 纯净无污染
+210.130.1.2       dns.iij.ad.jp            # 日本东京 - 备用节点
+
+
+# ==========================================
+# 🌿 社区驱动与去中心化 (极致冷门，适合非对称加密探索者)
+# ==========================================
+
+# LibreDNS (德国非营利组织，支持多种加密协议)
+116.202.176.26    libredns.gr              # 德国 - 零日志，基于 Hardened-Unbound
+116.203.32.120    libredns.gr              # 德国 - 备用
+
+# BlahDNS (独立极客维护，支持小众地区节点)
+78.46.244.143     blahdns.com              # 德国 - 去广告，支持 DoH/DoT
+45.32.107.185     blahdns.com              # 日本东京节点 - 适合东亚用户
+
+# OpenNIC (旨在摆脱 ICANN 审查的替代根域名系统)
+192.71.245.208    opennic.org              # 意大利 - 可解析 .bit / .oss 等非标准后缀
+185.121.177.177   opennic.org              # 英国 - 去中心化社区节点
+
+
+# ==========================================
+# 🛡️ 俄罗斯与东欧特色 (特定的绕行或资源访问)
+# ==========================================
+
+# SkyDNS (俄罗斯知名的内容过滤 DNS)
+193.58.251.251    skydns.ru                # 俄罗斯 - 强力家长控制与过滤
+# ==========================================
+# 🛡️ 全球安全实验室与威胁情报 DNS
+# 格式: IP Address        Hostname                 # 地区 - 特点
+# ==========================================
+
+# Gcore Public DNS (新兴边缘计算巨头，极速 Anycast 节点)
+95.85.95.85       public.gcore.com         # 卢森堡/全球 - 极低延迟，新兴首选
+2.56.220.2        public.gcore.com         # 全球 - 备用节点
+
+# SafeDNS (专注于企业级威胁过滤)
+195.46.39.39      dns1.safedns.com         # 欧洲/美国 - 强力拦截勒索软件
+195.46.39.40      dns2.safedns.com         # 欧洲/美国 - 稳定可靠
+
+# Alternate DNS (小众但极速，专门针对广告过滤)
+76.76.19.19       adblock.alt-dns.com      # 全球 - 主打广告拦截
+76.223.122.150    adblock.alt-dns.com      # 全球 - 备用节点
+
+# Neustar UltraDNS (全球顶尖的递归 DNS 服务商)
+156.154.70.5      filter.ultradns.com      # 全球 - 家庭安全版 (拦截成人内容)
+156.154.71.5      filter.ultradns.com      # 全球 - 备用
+
+# FlashStart (AI 驱动的全球安全过滤)
+185.236.104.104   dns1.flashstart.com      # 全球 - AI 威胁预警与过滤
+185.236.105.105   dns2.flashstart.com      # 全球 - 备用
+
+
+# ==========================================
+# 🌍 跨洲际特定地区优化节点 (极为冷门)
+# ==========================================
+
+# Smart DNS Proxy (针对特定流媒体或地区优化的网关)
+45.9.250.164      ae.smartdns.com          # 阿联酋迪拜 - 中东访问加速
+102.135.163.26    za.smartdns.com          # 南非 - 非洲大陆核心节点
+185.93.3.163      es.smartdns.com          # 西班牙马德里 - 南欧/北非优化
+
+# CenturyLink (Lumen) - 美国骨干网 DNS
+205.171.3.66      dns1.centurylink.net     # 美国 - 电信运营商骨干节点
+205.171.202.166   dns2.centurylink.net     # 美国 - 备用节点
+
+# Level3 (Lumen) - 除 4.2.2.2 外的其他隐藏节点
+4.2.2.3           vnsc-bak.sys.gtei.net    # 全球 - 资深运维备选
+4.2.2.4           vnsc-pri.sys.gtei.net    # 全球 - 极简解析
+
+# DNSGuard (欧洲新兴隐私项目)
+185.12.64.1       dns.dnsguard.ch          # 瑞士 - 顶级隐私法保护
+185.12.64.2       dns.dnsguard.ch          # 瑞士 - 无日志纯净解析
+
+
+# ==========================================
+# 🌌 超前沿：IPv6 补充 (针对 2026 年全面 IPv6 环境)
+# ==========================================
+
+# Gcore IPv6
+2a03:90c0:999d::1  gcore.ipv6              # Gcore 主 IPv6
+2a03:90c0:9992::1  gcore.ipv6              # Gcore 备 IPv6
+
+# SafeDNS IPv6
+2001:67c:2778::3939  safedns.ipv6          # SafeDNS 专用
+2001:67c:2778::3940  safedns.ipv6          # SafeDNS 备用
+
+# Alternate DNS IPv6
+2602:fcbc::ad     alt-dns.ipv6             # 广告拦截 IPv6 主
+2602:fcbc:2::ad   alt-dns.ipv6             # 广告拦截 IPv6 备
+# ==========================================
+# 🌎 全球通用 [强力推荐] - 适用于任何国家
+# ==========================================
+1.1.1.1           cloudflare-dns.com       # 全球 - 极速与隐私首选
+8.8.8.8           dns.google               # 全球 - 兼容性与稳定性首选
+9.9.9.9           dns.quad9.net            # 全球 - 安全与恶意拦截首选
+
+
+# ==========================================
+# 🌏 亚洲地区 (Asia-Pacific)
+# ==========================================
+
+# 中国 (China) - 顶级公共与运营商
+223.5.5.5         dns.alidns.com           # 阿里 DNS (全国覆盖)
+119.29.29.29      dns.pub                  # 腾讯 DNSPod (全国覆盖)
+114.114.114.114   dns.114dns.com           # 114DNS (老牌通用)
+
+# 日本 (Japan)
+210.130.1.1       dns.iij.ad.jp            # IIJ (日本顶级运营商)
+129.250.35.250    dns.ntt.jp               # NTT (日本最大电信)
+
+# 韩国 (South Korea)
+168.126.63.1      ktdns.korea              # KT (韩国电信默认推荐)
+210.220.163.82    sk.dns.korea             # SK Telecom
+
+# 台湾 (Taiwan)
+101.101.101.101   twnic.tw                 # TWNIC (官方推荐)
+168.95.1.1        dns.hinet.net            # 中华电信 HiNet (默认)
+
+# 香港 (Hong Kong)
+203.80.96.10      hk.pccw.dns              # PCCW (电讯盈科)
+202.45.84.58      hk.hgc.dns               # HGC (和记宽频)
+
+# 新加坡 (Singapore)
+203.120.1.1       singtel.dns              # Singtel (新电信)
+165.21.83.88      starhub.dns              # StarHub (星和)
+
+# 印度 (India)
+125.22.47.125     airtel.in                # Airtel (印度最大私营)
+202.54.2.1        tata.in                  # Tata Communications
+
+
+# ==========================================
+# 🇪🇺 欧洲地区 (Europe)
+# ==========================================
+
+# 英国 (United Kingdom)
+194.72.9.34       bt.com                   # BT (英国电信默认)
+194.168.4.100     virginmedia.com          # Virgin Media
+
+# 德国 (Germany)
+194.25.2.129      t-online.de              # Deutsche Telekom (德国电信)
+213.191.74.18     vodafone.de              # Vodafone Germany
+
+# 法国 (France)
+80.10.246.2       orange.fr                # Orange (法国电信)
+212.27.40.240     free.fr                  # Free (常用运营商)
+
+# 俄罗斯 (Russia)
+77.88.8.8         dns.yandex.ru            # Yandex (俄罗斯最强)
+213.180.193.1     yandex.safe              # Yandex 安全版
+
+
+# ==========================================
+# 🇺🇸 北美与南美 (Americas)
+# ==========================================
+
+# 美国 (USA)
+68.94.156.1       att.net                  # AT&T 默认
+75.75.75.75       comcast.net              # Comcast Xfinity
+205.171.3.66      centurylink.com          # CenturyLink (Lumen)
+
+# 加拿大 (Canada)
+64.71.255.204     teksavvy.com             # TekSavvy
+209.18.47.61      rogers.com               # Rogers
+
+# 巴西 (Brazil)
+200.221.11.101    uol.com.br               # UOL (巴西主流)
+201.10.128.2      telefonicabr.com         # Vivo / Telefonica
+
+
+# ==========================================
+# 🌍 非洲与中东 (Africa & Middle East)
+# ==========================================
+
+# 南非 (South Africa)
+196.25.1.11       telkom.co.za             # Telkom SA
+196.43.1.11       is.co.za                 # Internet Solutions
+
+# 阿联酋 (UAE)
+213.42.20.20      etisalat.ae              # Etisalat
+195.229.241.222   du.ae                    # Du
+
+# 沙特阿拉伯 (Saudi Arabia)
+212.118.144.1     stc.com.sa               # STC (沙特电信)
+# ==========================================
+# 📰 TechRadar (2025) 评选最佳免费/公共 DNS
+# 格式: IP Address        Hostname                 # 特点摘要 (优/劣势)
+# ==========================================
+
+# 1. Cleanbrowsing (最佳内容过滤 DNS)
+# 优势：免费提供多种内容过滤计划；配置简单（提供傻瓜式客户端）。
+# 劣势：缺乏深入的手动配置指南。
+# 特点：提供三种免费过滤层级（安全、成人、家庭）。家庭模式甚至可以强制开启 Google 和 YouTube 的安全搜索，并屏蔽代理/VPN 网站。
+185.228.168.9     security.cleanbrowsing.org # 安全过滤版 (拦截恶意软件/钓鱼)
+185.228.169.9     adult.cleanbrowsing.org    # 成人过滤版 (拦截色情内容)
+
+
+# 2. Cloudflare (最佳通用 DNS)
+# 优势：极度注重隐私（24小时内删除日志，并接受外部审计）；全球解析速度名列前茅；完全免费。
+# 劣势：基础版本不提供手动内容拦截功能。
+# 特点：著名的 1.1.1.1，性能测试通常在全球首位。另外也提供带拦截功能的 1.1.1.2（恶意软件）和 1.1.1.3（家庭安全）。
+1.1.1.1           cloudflare-dns.com         # 主 DNS
+1.0.0.1           cloudflare-dns.com         # 备用 DNS
+
+
+# 3. Google Public DNS (最佳老练用户 DNS)
+# 优势：极其可靠（庞大的数据库）；安全性高；完全免费。
+# 劣势：客服支持极少；界面复杂；存在一定的隐私顾虑（日志保留 24-48 小时）。
+# 特点：全球使用最广泛的公共 DNS，替换运营商默认 DNS 的绝佳基础选项。
+8.8.8.8           dns.google                 # 主 DNS
+8.8.4.4           dns.google                 # 备用 DNS
+
+
+# 4. Gcore (最佳技术狂热者 DNS)
+# 优势：庞大的网络节点（欧洲 20+，独联体地区 35+）；控制台设计优秀；功能极其丰富；提供慷慨的免费计划。
+# 劣势：在某些测速平台上速度表现不一；支持文档在某些领域缺乏细节。
+# 特点：主要面向边缘计算和对技术架构有深层需求的用户，也提供无需太多技术知识的预配置服务器。
+# (注：TechRadar 文章未在文中直接标明其基础 Anycast IP，通常为以下地址)
+95.85.95.85       public.gcore.com           # 主 DNS
+2.56.220.2        public.gcore.com           # 备用 DNS
+
+
+# 5. Quad9 (最佳性能增强 DNS)
+# 优势：强化网络安全；完全免费；易于设置。
+# 劣势：缺乏手动过滤选项；在部分测试中比 Google/Cloudflare 稍慢。
+# 特点：整合了约 20 个公共和私有威胁情报源，能够极其有效地在 DNS 层面阻断恶意域名的访问。
+9.9.9.9           dns.quad9.net              # 主 DNS
+149.112.112.112   dns.quad9.net              # 备用 DNS
+
+
+# 6. OpenDNS (最佳易用性 DNS)
+# 优势：提供免费层；允许手动过滤；有效拦截恶意网站；具有网站缓存功能。
+# 劣势：免费版功能受限；连接速度相对不占优；广告拦截能力有限。
+# 特点：现隶属思科（Cisco），每天处理海量查询。其 Family Shield（家庭盾）可以免配置直接拦截成人内容，付费版则提供活动历史记录和白名单功能。
+208.67.222.222    dns.opendns.com            # 主 DNS
+208.67.220.220    dns.opendns.com            # 备用 DNS
+
+
+# 7. Comodo Secure DNS (最佳安全性 DNS)
+# 优势：优秀的网页过滤；可保护离网设备；基于云的强力管理。
+# 劣势：免费版本在功能上受到了明显的限制。
+# 特点：由网络安全巨头 Comodo 提供，主打企业级和高规格的威胁阻断。
+8.26.56.26        dns.comodo.com             # 主 DNS
+8.20.247.20       dns.comodo.com             # 备用 DNS
